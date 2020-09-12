@@ -1,0 +1,31 @@
+{
+  "name": "eth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@portis/web3": "^2.0.0-beta.59",
+    "@toruslabs/torus-embed": "^1.8.3",
+    "@walletconnect/web3-provider": "^1.2.2",
+    "authereum": "0.0.4-beta.193",
+    "fortmatic": "^2.2.1",
+    "ganache-cli": "^6.10.2",
+    "nvm": "0.0.4",
+    "squarelink": "^1.1.4",
+    "trezor-connect": "^8.1.14",
+    "truffle": "^5.1.43",
+    "walletlink": "^2.0.2"
+  },
+  "devDependencies": {
+    "web3": "^1.2.11",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
